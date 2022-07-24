@@ -1,0 +1,112 @@
+.header {
+  height: 25%;
+  width: 100%;
+  background-color: white;
+}
+.upper_header {
+  display: flex;
+  height: 40%;
+  border-bottom: solid lightgray 2px;
+  font-weight: bold;
+}
+.uh_content1 {
+  padding-top: 15px;
+  text-align: center;
+  width: 10%;
+  color: darkgrey;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-right: solid lightgray 2px;
+}
+.uh_content2 {
+  display: flex;
+  margin-left: 100px;
+  width: 70%;
+}
+.uh_content2 input {
+  border-style: none;
+  outline: none;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+  color: rgb(131, 130, 130);
+}
+.uh_content2 li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 10%;
+  margin-top: 20px;
+}
+.uh_content2 li:first-child {
+  margin-right: 75%;
+}
+
+.lower_header {
+  height: 60%;
+  width: 100%;
+}
+.lower_header span {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.lh_content1 {
+  display: flex;
+  width: 100%;
+}
+.lh_content2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+}
+.lh_content2 ul li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+.lh_content2 li.active {
+  color: rgb(6, 219, 242);
+  border-bottom: solid rgb(6, 219, 242) 2px;
+}
+.lh_content2 li:hover {
+  font-weight: bold;
+  color: rgb(6, 219, 242);
+  cursor: pointer;
+  border-bottom: solid rgb(6, 219, 242) 2px;
+}
+.lh_content2 a {
+  text-decoration: none;
+  color: inherit;
+}
+.btn_create {
+  background-color: rgb(107, 211, 176);
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  margin-left: 80%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn_create:hover {
+  background-color: rgb(36, 38, 68);
+  transition: 0.7s;
+}
+.display_teams_header {
+  display: flex;
+  width: 100%;
+}
+.search_field {
+  border-style: none;
+  outline: none;
+  font-size: 1rem;
+  color: lightgrey;
+}

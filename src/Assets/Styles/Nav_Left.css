@@ -1,0 +1,30 @@
+.nav_left {
+  text-align: center;
+  height: 100%;
+  width: 60px;
+  background-color: rgb(36, 38, 68);
+  position: fixed;
+  color: white;
+  overflow: auto;
+}
+
+.nav_left::-webkit-scrollbar {
+  display: none;
+}
+
+.nav_left li {
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.nav_left li :hover {
+  background-color: rgb(6, 219, 242);
+}
+
+.nav_left li:first-child {
+  margin-top: 20px;
+}
+
+.nav_left li:last-child {
+  margin-top: 400px;
+}

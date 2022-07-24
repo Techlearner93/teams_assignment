@@ -1,0 +1,43 @@
+.Content {
+  height: 100%;
+  min-height: 929px;
+  width: 100%;
+  background-color: lightgrey;
+  border-top: solid lightgray 2px;
+  box-shadow: 50px lightgray;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.display_teams {
+  height: 100%;
+  width: 70%;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  background-color: white;
+  margin-top: 30px;
+}
+.display_teams_header {
+  height: 10%;
+  border-bottom: solid lightgray 2px;
+}
+.display_teams_header h2 {
+  padding: 25px;
+}
+.display_teams_body {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.display_activities {
+  height: 100%;
+  min-height: 500px;
+  width: 20%;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  background-color: white;
+  margin-top: 30px;
+}
+.display_activities h2 {
+  padding: 25px;
+  height: 20%;
+  border-bottom: solid lightgray 2px;
+}
